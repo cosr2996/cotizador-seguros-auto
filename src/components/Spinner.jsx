@@ -1,6 +1,6 @@
 import "../styles/spiner.css";
 
-const Cargando = () => {
+const Spinner = () => {
   return (
     <div className="spinner">
       <div className="dot1"></div>
@@ -9,4 +9,4 @@ const Cargando = () => {
   );
 };
 
-export default Cargando;
+export default Spinner;
