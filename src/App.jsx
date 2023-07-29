@@ -1,11 +1,12 @@
-import AppSeguro from "./components/AppSeguro"
+import AppSeguro from "./components/AppSeguro";
+import { CotizadorProvider } from "./contex/CotizdorProvider";
 
 function App() {
-
-
   return (
-   <AppSeguro/>
-  )
+    <CotizadorProvider>
+      <AppSeguro />
+    </CotizadorProvider>
+  );
 }
 
-export default App
+export default App;
